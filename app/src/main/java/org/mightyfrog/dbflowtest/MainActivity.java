@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         queen.ants.add(a2);
         queen.save();
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
